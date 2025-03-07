@@ -30,6 +30,10 @@
 🌐 **Interests**: System Development and Administration, Cybersecurity , Cloud Computing 
 
 ---
+**Random Quotes**
+> "Programming is not about what you know; it's about what you can figure out." 
+> — Chris Pin
+---
 ### Fun Facts
 - 🎮 I love playing video games in my free time.
 - 📚 I read a lot of science fiction and fantasy books.
