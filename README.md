@@ -1,21 +1,52 @@
-# Hi there, I'm [Your Name] 👋
+[![Onelrian's GitHub stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=flag-india&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
 
-Welcome to my GitHub profile! Here, you'll find my latest contributions, the most used languages, and other interesting GitHub stats.
+[![Onelrian Banner](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian!;🚀+Welcome+to+My+GitHub+Profile!;💡+I'm+a+passionate+Junior+Developer+and+Tech+Enthusiast;🌍+I'm+exploring+Open+Source+and+Innovation;🤝+Let's+Collaborate+together+and+Create+Awesome+Things!&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
 
-## GitHub Stats
-![Your Contribution Graph](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=radical)
 
-## Most Used Languages
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=onelrian&layout=compact&theme=radical)
+### 🔧 Tech Stack  
 
-## Visitors Count
-![Visitor Count](https://profile-counter.glitch.me/onelrian/count.svg)
+- 🔥 **Languages**: 🦀 Rust, C  
+- 🖥️ **OS**: Linux (Ubuntu), Windows  
+- 🛠️ **Tools**: Git, Docker, VS Code, Multipass , Eclipse , Intellij , Draw.io
+- 🌐 **Interests**: System Development and Administration, Cybersecurity , Cloud Computing 
 
-##
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&hide_title=true&count_private=true&theme=radical)
+###
 
-##
-![trophy](https://github-profile-trophy.vercel.app/?username=onelrian&theme=radical)
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=onelrian&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=nord&hide_border=true" height="200" alt="languages graph"  />
+  <img src="https://streak-stats.demolab.com/?user=onelrian&locale=en&mode=daily&theme=nord&hide_border=true&border_radius=5&date_format=j%20M%5B%20Y%5D" height="200" alt="GitHub Streak"  />
+</div>
 
-##
-![Activity Timeline](https://github-readme-activity-graph.cyclic.app/graph?username=onelrian&bg_color=000000&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true)
+###
+
+<div align="center">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="4" />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="4" />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
+  <img width="4" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
+  <img width="4" />
+  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg" height="30" alt="ubuntu logo"  />
+  <img width="4" />
+</div>
+
+###
+
+<div align="center">
+  <a href="https://discordapp.com/users/1282748778717122722" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=onelrian&color=7356DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+  </a>
+  
+  <a href="mailto:onelsob57@gmail.com" target="_blank">
+    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=onelrian&color=D14840&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+  </a>
+</div>
+
+###
+
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app?username=onelrian&theme=nord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=react&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
+</div>
