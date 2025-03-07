@@ -13,3 +13,6 @@ Welcome to my GitHub profile! Here, you'll find my latest contributions, the mos
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&hide_title=true&count_private=true&theme=radical)
 
+![trophy](https://github-profile-trophy.vercel.app/?username=onelrian&theme=radical)
+
+![Activity Timeline](https://github-readme-activity-graph.cyclic.app/graph?username=onelrian&bg_color=000000&color=00FF00&line=00FF00&point=FFFFFF&area=true&hide_border=true)
