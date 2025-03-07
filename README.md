@@ -1,17 +1,39 @@
+## Hello there 👋
+<div id="header" align="center">
+  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3N1ajA0cXI4bmJkZHc5aW5iYWQyMmJncHV4OHR4dTZldzNoajdnYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q8xuJjjxQHHJdHn7gJ/giphy.gif" width="100"/>
+</div>
+
+
 [![Onelrian's GitHub stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=flag-india&show=reviews,discussions_started,discussions_answered,prs_merged,prs_merged_percentage)](https://github.com/anuraghazra/github-readme-stats)
 
-[![Onelrian Banner](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian!;🚀+Welcome+to+My+GitHub+Profile!;💡+I'm+a+passionate+Junior+Developer+and+Tech+Enthusiast;🌍+I'm+exploring+Open+Source+and+Innovation;🤝+Let's+Collaborate+together+and+Create+Awesome+Things!&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
-
-
+[![Onelrian Banner](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian!;🚀+Welcome+to+My+GitHub+Profile!;🔥+Constantly+expanding+my+skill+set;Staying+up+to+date+with+the+latest+trends&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
+---
 ### 🔧 Tech Stack  
 
-- 🔥 **Languages**: 🦀 Rust, C  
-- 🖥️ **OS**: Linux (Ubuntu), Windows  
-- 🛠️ **Tools**: Git, Docker, VS Code, Multipass , Eclipse , Intellij , Draw.io
-- 🌐 **Interests**: System Development and Administration, Cybersecurity , Cloud Computing 
+🔥 **Programming Languages**: 
+  * 🦀 Rust
+  * C
+---  
+ 🖥️ **OS**: 
+ * Linux (Ubuntu)
+ * Windows  
+ * Mac
+ ---
+🛠️ **Tools and Platform:**
+ * Git and GitHub
+ * Docker
+ * VS Code 
+ * Multipass , 
+ * Eclipse
 
-###
+---
+🌐 **Interests**: System Development and Administration, Cybersecurity , Cloud Computing 
 
+---
+### Fun Facts
+- 🎮 I love playing video games in my free time.
+- 📚 I read a lot of science fiction and fantasy books.
+---
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs?username=onelrian&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=nord&hide_border=true" height="200" alt="languages graph"  />
   <img src="https://streak-stats.demolab.com/?user=onelrian&locale=en&mode=daily&theme=nord&hide_border=true&border_radius=5&date_format=j%20M%5B%20Y%5D" height="200" alt="GitHub Streak"  />
