@@ -77,3 +77,4 @@
   <img src="https://github-profile-trophy.vercel.app?username=onelrian&theme=nord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=true&order=4" height="150" alt="trophy graph"  />
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=react&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
 </div>
+![Onelrian GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=dark)
