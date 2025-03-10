@@ -6,6 +6,8 @@
 
 ![Onelrian GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=dark)
 
+![Onelrian Wakatime Stats](https://wakatime.com/share/@onelrian/your-wakatime-id.png)
+
 [![Onelrian Banner](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian!;🚀+Welcome+to+My+GitHub+Profile!;🔥+Constantly+expanding+my+skill+set;Staying+up+to+date+with+the+latest+trends&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
 ---
 ### 🔧 Tech Stack  
