@@ -3,9 +3,11 @@
   <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3N1ajA0cXI4bmJkZHc5aW5iYWQyMmJncHV4OHR4dTZldzNoajdnYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q8xuJjjxQHHJdHn7gJ/giphy.gif" width="100"/>
 </div>
 
-
+##
 ![Onelrian GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=dark)
+###
 ![Onelrian GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=dark)
+###
 ![Onelrian GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=light)
 
 [![Onelrian Banner](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian!;🚀+Welcome+to+My+GitHub+Profile!;🔥+Constantly+expanding+my+skill+set;Staying+up+to+date+with+the+latest+trends&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
