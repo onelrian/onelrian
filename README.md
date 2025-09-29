@@ -14,7 +14,7 @@
 - Explore AI & ML: prototypes, deployments, inference pipelines
 
 ---
-[![Quote](https://readme-typing-svg.demolab.com/?lines=Not+about+what+you+know,+But+what+you+solve.;Engineered+for+reliability+not+applause.&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
+[![Quote](https://readme-typing-svg.demolab.com/?lines=Not+just+what+you+know,+but+what+you+do.;Engineered+for+reliability+not+applause.&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
 
 ## 🌱 Currently Growing / Learning
 
