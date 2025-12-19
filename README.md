@@ -1,9 +1,8 @@
 <div align="center">
-  
-![Typing SVG](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian;Welcome+to+my+GitHub+profile!&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000)
 
-  <h1>Onelrian</h1>
-  <p><em>Infrastructure Engineer • Cloud Platform Specialist • Linux Enthusiast • SRE</em></p>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4A90E2,50:7B68EE,100:9B59B6&height=200&section=header&text=Hi%20there,%20I'm%20Onelrian%20👋&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile&descAlignY=55&descSize=18)
+
+<p><em>Infrastructure Engineer • Cloud Platform Specialist • Linux Enthusiast • SRE</em></p>
 </div>
 
 [![Quote](https://readme-typing-svg.demolab.com/?lines=Building+resilient+infrastructure+through+automation;Orchestrating+cloud-native+architectures;Engineering+for+reliability+not+applause&center=true&width=800&size=22&duration=3000&pause=1000)](https://git.io/typing-svg)
@@ -74,7 +73,7 @@ Building resilient, scalable infrastructure through automation and modern cloud-
 ## Let's Connect
 
 <div align="center">
-  <a href="www.linkedin.com/in/sob-onel-b322b9342" target="_blank">
+  <a href="https://www.linkedin.com/in/sob-onel-b322b9342/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn"/>
   </a>
   <a href="https://discordapp.com/users/1282748778717122722" target="_blank">
