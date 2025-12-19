@@ -14,51 +14,72 @@
 > Building resilient, scalable infrastructure through automation and modern cloud-native architectures.  
 > Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
 
-<table>
-<tr>
-<td width="50%" valign="top">
+<div align="center">
 
-### Infrastructure & Cloud Platforms
-- Private cloud infrastructure using **OpenStack**
-- Multi-cloud architecture design and implementation  
-  `AWS` `Azure` `GCP` `Huawei Cloud`
-- High-availability system design
-- Infrastructure as Code practices
+<details open>
+<summary><b>🏗️ Infrastructure & Cloud Platforms</b> — Click to expand</summary>
+<br/>
 
-</td>
-<td width="50%" valign="top">
+```yaml
+Expertise Areas:
+  - Private cloud infrastructure using OpenStack
+  - Multi-cloud architecture design and implementation
+    Platforms: AWS • Azure • GCP • Huawei Cloud
+  - High-availability system design
+  - Infrastructure as Code practices
+  - Cloud-native architecture patterns
+```
 
-### Orchestration & Automation
-- Container orchestration with **Kubernetes**
-- Infrastructure automation with **Terraform** & **Ansible**
-- Configuration management & GitOps workflows
-- CI/CD pipeline design and implementation
+</details>
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<details open>
+<summary><b>⚙️ Orchestration & Automation</b> — Click to expand</summary>
+<br/>
 
-### Observability & Monitoring
-- Full-stack observability with **Grafana** ecosystem
-- Metrics collection using **Prometheus** & **Mimir**
-- Distributed tracing with **Tempo**
-- Log aggregation with **Loki** & **Alloy**
-- Performance monitoring and alerting
+```yaml
+Expertise Areas:
+  - Container orchestration with Kubernetes
+  - Infrastructure automation with Terraform & Ansible
+  - Configuration management & GitOps workflows
+  - CI/CD pipeline design and implementation
+  - Automated deployment strategies
+```
 
-</td>
-<td width="50%" valign="top">
+</details>
 
-### Development & Engineering
-- Full-stack application development
-- Backend services with **Python** & **Rust**
-- Modern web applications using **Next.js**
-- Linux system programming & scripting
-- Database design with **PostgreSQL**
+<details open>
+<summary><b>📊 Observability & Monitoring</b> — Click to expand</summary>
+<br/>
 
-</td>
-</tr>
-</table>
+```yaml
+Expertise Areas:
+  - Full-stack observability with Grafana ecosystem
+  - Metrics collection using Prometheus & Mimir
+  - Distributed tracing with Tempo
+  - Log aggregation with Loki & Alloy
+  - Performance monitoring and alerting
+  - SRE best practices
+```
+
+</details>
+
+<details open>
+<summary><b>💻 Development & Engineering</b> — Click to expand</summary>
+<br/>
+
+```yaml
+Expertise Areas:
+  - Full-stack application development
+  - Backend services with Python & Rust
+  - Modern web applications using Next.js (TypeScript)
+  - Linux system programming & scripting
+  - Database design with PostgreSQL
+  - RESTful API design and implementation
+```
+
+</details>
+
+</div>
 
 ---
 
