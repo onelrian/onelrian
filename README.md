@@ -11,75 +11,33 @@
 
 ## Areas of Expertise
 
-> Building resilient, scalable infrastructure through automation and modern cloud-native architectures.  
-> Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
+> Building resilient, scalable infrastructure through automation and modern cloud-native architectures. Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
 
-<div align="center">
+### Infrastructure & Cloud Platforms
+- Private cloud infrastructure using **OpenStack**
+- Multi-cloud architecture design and implementation across **AWS**, **Azure**, **GCP**, and **Huawei Cloud**
+- High-availability system design and cloud-native architecture patterns
+- Infrastructure as Code practices
 
-<details open>
-<summary><b>🏗️ Infrastructure & Cloud Platforms</b> — Click to expand</summary>
-<br/>
+### Orchestration & Automation
+- Container orchestration with **Kubernetes**
+- Infrastructure automation using **Terraform** and **Ansible**
+- Configuration management and GitOps workflows
+- CI/CD pipeline design and implementation
 
-```yaml
-Expertise Areas:
-  - Private cloud infrastructure using OpenStack
-  - Multi-cloud architecture design and implementation
-    Platforms: AWS • Azure • GCP • Huawei Cloud
-  - High-availability system design
-  - Infrastructure as Code practices
-  - Cloud-native architecture patterns
-```
+### Observability & Monitoring
+- Full-stack observability with **Grafana** ecosystem
+- Metrics collection and storage using **Prometheus** and **Mimir**
+- Distributed tracing with **Tempo**
+- Log aggregation with **Loki** and **Alloy**
+- Performance monitoring, alerting, and SRE best practices
 
-</details>
-
-<details open>
-<summary><b>⚙️ Orchestration & Automation</b> — Click to expand</summary>
-<br/>
-
-```yaml
-Expertise Areas:
-  - Container orchestration with Kubernetes
-  - Infrastructure automation with Terraform & Ansible
-  - Configuration management & GitOps workflows
-  - CI/CD pipeline design and implementation
-  - Automated deployment strategies
-```
-
-</details>
-
-<details open>
-<summary><b>📊 Observability & Monitoring</b> — Click to expand</summary>
-<br/>
-
-```yaml
-Expertise Areas:
-  - Full-stack observability with Grafana ecosystem
-  - Metrics collection using Prometheus & Mimir
-  - Distributed tracing with Tempo
-  - Log aggregation with Loki & Alloy
-  - Performance monitoring and alerting
-  - SRE best practices
-```
-
-</details>
-
-<details open>
-<summary><b>💻 Development & Engineering</b> — Click to expand</summary>
-<br/>
-
-```yaml
-Expertise Areas:
-  - Full-stack application development
-  - Backend services with Python & Rust
-  - Modern web applications using Next.js (TypeScript)
-  - Linux system programming & scripting
-  - Database design with PostgreSQL
-  - RESTful API design and implementation
-```
-
-</details>
-
-</div>
+### Development & Engineering
+- Full-stack application development
+- Backend services with **Python** and **Rust**
+- Modern web applications using **Next.js** and **TypeScript**
+- Linux system programming and shell scripting
+- Database design with **PostgreSQL** and RESTful API development
 
 ---
 
