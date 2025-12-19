@@ -1,6 +1,6 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4A90E2,50:7B68EE,100:9B59B6&height=200&section=header&text=Hi%20there,%20I'm%20Onelrian%20👋&fontSize=40&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Welcome%20to%20my%20GitHub%20profile&descAlignY=55&descSize=18)
+![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4A90E2,50:7B68EE,100:9B59B6&height=180&section=header&text=Hi%20there,%20I'm%20Onelrian%20👋&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=48)
 
 <p><em>Infrastructure Engineer • Cloud Platform Specialist • Linux Enthusiast • SRE</em></p>
 </div>
@@ -11,14 +11,54 @@
 
 ## Areas of Expertise
 
-Building resilient, scalable infrastructure through automation and modern cloud-native architectures. Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
+> Building resilient, scalable infrastructure through automation and modern cloud-native architectures.  
+> Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
 
-**Core Specializations:**
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Infrastructure & Cloud Platforms
 - Private cloud infrastructure using **OpenStack**
-- Multi-cloud architecture design and implementation
+- Multi-cloud architecture design and implementation  
+  `AWS` `Azure` `GCP` `Huawei Cloud`
+- High-availability system design
+- Infrastructure as Code practices
+
+</td>
+<td width="50%" valign="top">
+
+### Orchestration & Automation
 - Container orchestration with **Kubernetes**
-- Infrastructure automation and configuration management
-- Full-stack application development and deployment
+- Infrastructure automation with **Terraform** & **Ansible**
+- Configuration management & GitOps workflows
+- CI/CD pipeline design and implementation
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### Observability & Monitoring
+- Full-stack observability with **Grafana** ecosystem
+- Metrics collection using **Prometheus** & **Mimir**
+- Distributed tracing with **Tempo**
+- Log aggregation with **Loki** & **Alloy**
+- Performance monitoring and alerting
+
+</td>
+<td width="50%" valign="top">
+
+### Development & Engineering
+- Full-stack application development
+- Backend services with **Python** & **Rust**
+- Modern web applications using **Next.js**
+- Linux system programming & scripting
+- Database design with **PostgreSQL**
+
+</td>
+</tr>
+</table>
 
 ---
 
