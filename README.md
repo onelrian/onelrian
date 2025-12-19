@@ -11,33 +11,13 @@
 
 ## Areas of Expertise
 
-> Building resilient, scalable infrastructure through automation and modern cloud-native architectures. Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
+> Infrastructure Engineer specializing in cloud-native architectures, automation, and operational excellence.  
+> Building scalable systems across private OpenStack environments and multi-cloud platforms.
 
-### Infrastructure & Cloud Platforms
-- Private cloud infrastructure using **OpenStack**
-- Multi-cloud architecture design and implementation across **AWS**, **Azure**, **GCP**, and **Huawei Cloud**
-- High-availability system design and cloud-native architecture patterns
-- Infrastructure as Code practices
-
-### Orchestration & Automation
-- Container orchestration with **Kubernetes**
-- Infrastructure automation using **Terraform** and **Ansible**
-- Configuration management and GitOps workflows
-- CI/CD pipeline design and implementation
-
-### Observability & Monitoring
-- Full-stack observability with **Grafana** ecosystem
-- Metrics collection and storage using **Prometheus** and **Mimir**
-- Distributed tracing with **Tempo**
-- Log aggregation with **Loki** and **Alloy**
-- Performance monitoring, alerting, and SRE best practices
-
-### Development & Engineering
-- Full-stack application development
-- Backend services with **Python** and **Rust**
-- Modern web applications using **Next.js** and **TypeScript**
-- Linux system programming and shell scripting
-- Database design with **PostgreSQL** and RESTful API development
+**Infrastructure & Cloud** — OpenStack • Kubernetes • Multi-cloud architecture  
+**Automation & DevOps** — Terraform • Ansible • CI/CD • GitOps  
+**Observability** — Grafana ecosystem • Prometheus • Mimir • Tempo • Loki  
+**Development** — Python • Rust • Next.js • PostgreSQL
 
 ---
 
