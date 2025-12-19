@@ -14,10 +14,17 @@
 > Infrastructure Engineer specializing in cloud-native architectures, automation, and operational excellence.  
 > Building scalable systems across private OpenStack environments and multi-cloud platforms.
 
-**Infrastructure & Cloud** — OpenStack • Kubernetes • Multi-cloud architecture  
-**Automation & DevOps** — Terraform • Ansible • CI/CD • GitOps  
-**Observability** — Grafana ecosystem • Prometheus • Mimir • Tempo • Loki  
-**Development** — Python • Rust • Next.js • PostgreSQL
+<div align="center">
+
+![Infrastructure](https://img.shields.io/badge/Infrastructure_&_Cloud-OpenStack_•_Kubernetes_•_Multi--cloud-4A90E2?style=for-the-badge&labelColor=2C3E50)
+
+![Automation](https://img.shields.io/badge/Automation_&_DevOps-Terraform_•_Ansible_•_CI/CD_•_GitOps-7B68EE?style=for-the-badge&labelColor=2C3E50)
+
+![Observability](https://img.shields.io/badge/Observability-Grafana_•_Prometheus_•_Mimir_•_Tempo_•_Loki-9B59B6?style=for-the-badge&labelColor=2C3E50)
+
+![Development](https://img.shields.io/badge/Development-Python_•_Rust_•_Next.js_•_PostgreSQL-E74C3C?style=for-the-badge&labelColor=2C3E50)
+
+</div>
 
 ---
 
