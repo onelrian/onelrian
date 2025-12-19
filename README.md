@@ -1,67 +1,92 @@
-<!-- Banner -->
 <div align="center">
-  <img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3N1ajA0cXI4bmJkZHc5aW5iYWQyMmJncHV4OHR4dTZldzNoajdnYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/Q8xuJjjxQHHJdHn7gJ/giphy.gif" width="120" alt="👋 Hi there"/>
+  
+![Typing SVG](https://readme-typing-svg.demolab.com/?lines=👋+Hi+there,+I'm+Onelrian;Welcome+to+my+GitHub+profile!&font=Fira%20Code&center=true&width=380&height=50&duration=4000&pause=1000)
+
   <h1>Onelrian</h1>
-  <p>OpenStack • DevOps • AI/ML • Linux Enthusiast</p>
+  <p><em>Infrastructure Engineer • Cloud Platform Specialist • Linux Enthusiast • SRE</em></p>
 </div>
 
-## What I Do
-
-- Build, maintain, and scale **OpenStack** deployments  
-- Automate infrastructure with **Ansible**, **Terraform**, **Vagrant**, **Multipass**  
-- Work daily on **Linux** systems + servers, SSH, shell scripting  
-- Create web apps & experiments using **Next.js**, **JavaScript**, **Python**  
-- Explore AI & ML: prototypes, deployments, inference pipelines
+[![Quote](https://readme-typing-svg.demolab.com/?lines=Building+resilient+infrastructure+through+automation;Orchestrating+cloud-native+architectures;Engineering+for+reliability+not+applause&center=true&width=800&size=22&duration=3000&pause=1000)](https://git.io/typing-svg)
 
 ---
-[![Quote](https://readme-typing-svg.demolab.com/?lines=Not+just+what+you+know,+but+what+you+do.;Engineered+for+reliability+not+applause.&center=true&width=1000&size=30&duration=3000&pause=1000)](https://git.io/typing-svg)
 
-## 🌱 Currently Growing / Learning
+## Areas of Expertise
 
-- Deepening knowledge of Kubernetes and service meshes  
-- Exploring edge / serverless computing  
-- Improved ML ops (model versioning, deployment, monitoring)  
-- Enhancing full‑stack security: best practices, CI pipelines, secrets management
-  
-## A Bit of Me
+Building resilient, scalable infrastructure through automation and modern cloud-native architectures. Specialized in orchestrating private and public cloud deployments with a focus on operational excellence and infrastructure as code.
 
-- Always reading sci‑fi / fantasy books  
-- Gaming to relax (strategy / RPG)  
-- Coffee, late nights, code that works
-  
-## Let’s Connect
+**Core Specializations:**
+- Private cloud infrastructure using **OpenStack**
+- Multi-cloud architecture design and implementation
+- Container orchestration with **Kubernetes**
+- Infrastructure automation and configuration management
+- Full-stack application development and deployment
+
+---
+
+## Technology Stack
 
 <div align="center">
+
+### Cloud & Infrastructure
+![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge&logo=openstack&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+
+### Automation & DevOps
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
+![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+### Development
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+
+### Systems & Databases
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
+![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+</div>
+
+---
+
+## GitHub Activity
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=onelrian&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=nord&hide_border=true" height="180" alt="Top Languages"/>
+  <img src="https://streak-stats.demolab.com/?user=onelrian&locale=en&mode=daily&theme=nord&hide_border=true&border_radius=5" height="180" alt="GitHub Streak"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=react&area=true&order=5&hide_border=true" height="300" alt="Contribution Graph"/>
+</div>
+
+---
+
+## Let's Connect
+
+<div align="center">
+  <a href="www.linkedin.com/in/sob-onel-b322b9342" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn"/>
+  </a>
   <a href="https://discordapp.com/users/1282748778717122722" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Discord&logo=discord&label=onelrian&color=7356DA&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="discord logo"  />
+    <img src="https://img.shields.io/badge/Discord-7356DA?style=for-the-badge&logo=discord&logoColor=white" height="35" alt="Discord"/>
   </a>
-  
   <a href="mailto:onelsob57@gmail.com" target="_blank">
-    <img src="https://img.shields.io/static/v1?message=Gmail&logo=gmail&label=onelrian&color=D14840&logoColor=white&labelColor=&style=for-the-badge" height="35" alt="gmail logo"  />
+    <img src="https://img.shields.io/badge/Gmail-D14840?style=for-the-badge&logo=gmail&logoColor=white" height="35" alt="Gmail"/>
   </a>
 </div>
 
-## GitHub Stats & Activity
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=onelrian&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=5&theme=nord&hide_border=true" height="200" alt="languages graph"  />
-  <img src="https://streak-stats.demolab.com/?user=onelrian&locale=en&mode=daily&theme=nord&hide_border=true&border_radius=5&date_format=j%20M%5B%20Y%5D" height="200" alt="GitHub Streak"  />
-</div>
+---
 
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
-  <img width="4" />
-  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
-  <img width="4" />
-  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/docker/docker-original.svg" height="30" alt="docker logo"  />
-  <img width="4" />
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" height="30" alt="postgresql logo"  />
-  <img width="4" />
-  <img src="https://github.com/devicons/devicon/blob/v2.16.0/icons/ubuntu/ubuntu-original.svg" height="30" alt="ubuntu logo"  />
-  <img width="4" />
+  <sub>Infrastructure engineer focused on building systems that scale. Interested in cloud architecture, automation, and the intersection of infrastructure and application delivery.</sub>
 </div>
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=react&area=true&order=5&hide_border=true" height="300" alt="activity-graph graph"  />
-</div>
-
-![Onelrian GitHub Stats](https://github-readme-stats.vercel.app/api?username=onelrian&show_icons=true&theme=dark)
