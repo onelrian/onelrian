@@ -81,12 +81,12 @@ Building scalable systems across private OpenStack environments and multi-cloud 
 ## GitHub Activity
 
 <div align="center">
-  <img src="https://readme-stats-git-main-onelrians-projects.vercel.app/api?username=onelrian&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" height="180" alt="GitHub Stats"/>
-  <img src="https://readme-stats-git-main-onelrians-projects.vercel.app/api/top-langs?username=onelrian&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
+  <img src="https://readme-stats-plum-nine.vercel.app/api?username=onelrian&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" height="180" alt="GitHub Stats"/>
+  <img src="https://readme-stats-plum-nine.vercel.app/api/top-langs?username=onelrian&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" height="180" alt="Top Languages"/>
 </div>
 
 <div align="center">
-  <img src="https://readme-streak-stats-git-main-onelrians-projects.vercel.app/?user=onelrian&locale=en&mode=daily&theme=github-dark-blue&hide_border=true&border_radius=5&background=0D1117" height="180" alt="GitHub Streak"/>
+  <img src="https://readme-streak-stats-delta.vercel.app/?user=onelrian&locale=en&mode=daily&theme=github-dark-blue&hide_border=true&border_radius=5&background=0D1117" height="180" alt="GitHub Streak"/>
 </div>
 
 <div align="center">
