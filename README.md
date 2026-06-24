@@ -34,25 +34,24 @@ and wire observability and security into the fabric of infrastructure across bar
 
 <br>
 
-**Platforms & Orchestration**&nbsp;&nbsp;
+**Platforms & Orchestration**
+
 ![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=flat-square&logo=openstack&logoColor=white)
 ![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
 ![Talos](https://img.shields.io/badge/Talos_Linux-326CE5?style=flat-square&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
 
-<br>
+**Observability**
 
-**Observability**&nbsp;&nbsp;
 ![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Tempo](https://img.shields.io/badge/Tempo-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Mimir](https://img.shields.io/badge/Mimir-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white)
 ![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
 
-<br>
+**Networking & Security**
 
-**Networking & Security**&nbsp;&nbsp;
 ![NetBird](https://img.shields.io/badge/NetBird-00B4FF?style=flat-square&logoColor=white)
 ![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
 ![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
