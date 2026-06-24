@@ -12,16 +12,16 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Designing+infrastructure+that+runs+itself;Building+observability+from+signal+to+dashboard;Connecting+environments+with+mesh+networking;GitOps+on+bare-metal+and+cloud+at+scale&center=true&width=800&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+engineering+at+the+intersection+of+reliability+and+scale;Full-stack+observability+from+metrics+to+distributed+traces;Zero-trust+mesh+networking+across+bare-metal+and+cloud;GitOps-driven+infrastructure+that+operates+itself&center=true&width=860&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
 <div align="center">
-Most of my work lives in private repositories — production infrastructure, internal platforms, systems built for scale.<br>
-I design and operate cloud-native platforms, build automation that removes humans from the loop,<br>
-and wire observability and security into the fabric of infrastructure across bare-metal and multi-cloud environments.
+Most of my work lives in private repositories: production systems, internal platforms, infrastructure built for real scale.<br>
+I architect and operate cloud-native platforms, automate everything that can be automated,<br>
+and treat observability and security as non-negotiable from the foundation up.
 </div>
 
 ---
@@ -110,5 +110,5 @@ and wire observability and security into the fabric of infrastructure across bar
 ---
 
 <div align="center">
-  <sub>Most systems I run you'll never see — that's the point.</sub>
+  <sub>The best infrastructure is invisible. I build that kind.</sub>
 </div>
