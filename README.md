@@ -1,84 +1,69 @@
 <div align="center">
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=0:4A90E2,50:7B68EE,100:9B59B6&height=180&section=header&text=Hi%20there,%20I'm%20Onelrian%20👋&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=48)
+![Header](https://capsule-render.vercel.app/api?type=venom&color=0:4A90E2,50:7B68EE,100:9B59B6&height=200&section=header&text=Onelrian&fontSize=72&fontColor=ffffff&animation=twinkling&fontAlignY=55&bg_color=0D1117)
 
-<p><em>Infrastructure Engineer • Cloud Platform Specialist • Linux Enthusiast • SRE</em></p>
 </div>
 
-[![Quote](https://readme-typing-svg.demolab.com/?lines=Building+resilient+infrastructure+through+automation;Orchestrating+cloud-native+architectures;Engineering+for+reliability+not+applause&center=true&width=800&size=22&duration=3000&pause=1000)](https://git.io/typing-svg)
+<div align="center">
+<em>Infrastructure Engineer · Platform Engineering · SRE</em>
+</div>
 
----
-
-## Areas of Expertise
-
-Infrastructure Engineer specializing in cloud-native architectures, automation, and operational excellence.  
-Building scalable systems across private OpenStack environments and multi-cloud platforms.
-
-<table align="center">
-<tr>
-<td align="center">
-
-![Infrastructure](https://img.shields.io/badge/Infrastructure_&_Cloud-OpenStack_•_Kubernetes_•_Multi--cloud-4A90E2?style=for-the-badge&labelColor=2C3E50)
-
-</td>
-<td align="center">
-
-![Automation](https://img.shields.io/badge/Automation_&_DevOps-Terraform_•_Ansible_•_CI/CD_•_GitOps-7B68EE?style=for-the-badge&labelColor=2C3E50)
-
-</td>
-</tr>
-<tr>
-<td align="center">
-
-![Observability](https://img.shields.io/badge/Observability-Grafana_•_Prometheus_•_Mimir_•_Tempo_•_Loki-9B59B6?style=for-the-badge&labelColor=2C3E50)
-
-</td>
-<td align="center">
-
-![Development](https://img.shields.io/badge/Development-Python_•_Rust_•_Next.js_•_PostgreSQL-E74C3C?style=for-the-badge&labelColor=2C3E50)
-
-</td>
-</tr>
-</table>
-
----
-
-## Technology Stack
+<br>
 
 <div align="center">
 
-### Cloud & Infrastructure
-![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge&logo=openstack&logoColor=white)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![GCP](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-
-### Automation & DevOps
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-
-### Development
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-
-### Systems & Databases
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white)
-![Red Hat](https://img.shields.io/badge/Red_Hat-EE0000?style=for-the-badge&logo=redhat&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Designing+infrastructure+that+runs+itself;Building+observability+from+signal+to+dashboard;Connecting+environments+with+mesh+networking;GitOps+on+bare-metal+and+cloud+at+scale&center=true&width=800&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
-## GitHub Activity
+<div align="center">
+Most of my work lives in private repositories — production infrastructure, internal platforms, systems built for scale.<br>
+I design and operate cloud-native platforms, build automation that removes humans from the loop,<br>
+and wire observability and security into the fabric of infrastructure across bare-metal and multi-cloud environments.
+</div>
+
+---
+
+## Stack
+
+<div align="center">
+
+[![Skills](https://skillicons.dev/icons?i=kubernetes,docker,aws,gcp,azure,terraform,ansible,githubactions,grafana,prometheus,nginx,python,rust,javascript,typescript,nextjs,postgres,linux&theme=dark&perline=9)](https://skillicons.dev)
+
+<br>
+
+**Platforms & Orchestration**&nbsp;&nbsp;
+![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=flat-square&logo=openstack&logoColor=white)
+![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white)
+![Talos](https://img.shields.io/badge/Talos_Linux-326CE5?style=flat-square&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white)
+![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white)
+
+<br>
+
+**Observability**&nbsp;&nbsp;
+![Loki](https://img.shields.io/badge/Loki-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Tempo](https://img.shields.io/badge/Tempo-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Mimir](https://img.shields.io/badge/Mimir-F46800?style=flat-square&logo=grafana&logoColor=white)
+![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=flat-square&logo=opentelemetry&logoColor=white)
+
+<br>
+
+**Networking & Security**&nbsp;&nbsp;
+![NetBird](https://img.shields.io/badge/NetBird-00B4FF?style=flat-square&logoColor=white)
+![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=flat-square&logo=tailscale&logoColor=white)
+![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=flat-square&logo=wireguard&logoColor=white)
+![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=flat-square&logo=keycloak&logoColor=white)
+![Wazuh](https://img.shields.io/badge/Wazuh-006DB7?style=flat-square&logoColor=white)
+
+</div>
+
+---
+
+## Activity
 
 <div align="center">
   <img src="https://readme-stats-plum-nine.vercel.app/api?username=onelrian&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" height="180" alt="GitHub Stats"/>
@@ -90,12 +75,12 @@ Building scalable systems across private OpenStack environments and multi-cloud 
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=github-compact&area=true&order=5&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" height="300" alt="Contribution Graph"/>
+  <img src="profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="3D Contribution Graph"/>
 </div>
 
 ---
 
-## Let's Connect
+## Connect
 
 <div align="center">
   <a href="https://www.linkedin.com/in/sob-onel-b322b9342/" target="_blank">
@@ -112,5 +97,5 @@ Building scalable systems across private OpenStack environments and multi-cloud 
 ---
 
 <div align="center">
-  <sub>Infrastructure engineer focused on building systems that scale. Interested in cloud architecture, automation, and the intersection of infrastructure and application delivery.</sub>
+  <sub>Most systems I run you'll never see — that's the point.</sub>
 </div>
