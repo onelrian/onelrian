@@ -12,14 +12,14 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+engineering+at+the+intersection+of+reliability+and+scale;Full-stack+observability+from+metrics+to+distributed+traces;Zero-trust+mesh+networking+across+bare-metal+and+cloud;GitOps-driven+infrastructure+that+operates+itself&center=true&width=860&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+engineering+at+the+intersection+of+reliability+and+scale;Full-stack+observability+from+metrics+to+distributed+traces;Secure+networking+and+infrastructure+automation+by+default;Delivery+pipelines+that+ship+and+heal+themselves&center=true&width=860&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
 <div align="center">
-I design and operate cloud-native platforms end to end: multi-cluster Kubernetes, GitOps delivery with ArgoCD, zero-trust mesh networking, and full-stack observability from metrics to distributed traces.<br>
+I design and operate cloud-native platforms end to end, from cluster provisioning through automated delivery, secure networking, and full-stack observability.<br>
 Infrastructure is code, delivery is automated, and security posture is enforced from the foundation up, not bolted on after.<br>
 Most of that work runs in production systems that stay private by nature; this profile reflects the same standards.
 </div>
@@ -109,10 +109,6 @@ Most of that work runs in production systems that stay private by nature; this p
 
 <div align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=github-compact&area=true&order=5&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" height="300" alt="Contribution Graph"/>
-</div>
-
-<div align="center">
-  <img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%"/>
 </div>
 
 ---
