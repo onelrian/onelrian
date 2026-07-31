@@ -19,9 +19,11 @@
 ---
 
 <div align="center">
-I design and operate cloud-native platforms end to end, from cluster provisioning through automated delivery, secure networking, and full-stack observability.<br>
-Infrastructure is code, delivery is automated, and security posture is enforced from the foundation up, not bolted on after.<br>
-Most of that work runs in production systems that stay private by nature; this profile reflects the same standards.
+<blockquote>
+<em>I design and operate cloud-native platforms end to end, from <strong>cluster provisioning</strong> through <strong>automated delivery</strong>, <strong>secure networking</strong>, and <strong>full-stack observability</strong>.</em><br><br>
+<em>Infrastructure is code, delivery is automated, and <strong>security posture is enforced from the foundation up</strong>, not bolted on after.</em><br><br>
+<em>Most of that work runs in production systems that stay private by nature; this profile reflects the same standards.</em>
+</blockquote>
 </div>
 
 ---
@@ -64,7 +66,7 @@ Most of that work runs in production systems that stay private by nature; this p
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tempo.svg" alt="Tempo" title="Tempo"/><br><sub>Tempo</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grafana.svg" alt="Mimir" title="Mimir (no dedicated icon upstream, Grafana Labs family)"/><br><sub>Mimir</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/alertmanager.svg" alt="Alertmanager" title="Alertmanager"/><br><sub>Alertmanager</sub></td>
-<td align="center" width="80"><img width="40" height="40" src="https://cdn.simpleicons.org/opentelemetry/425CC7" alt="OpenTelemetry" title="OpenTelemetry"/><br><sub>OpenTelemetry</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/opentelemetry-light.svg" alt="OpenTelemetry" title="OpenTelemetry"/><br><sub>OpenTelemetry</sub></td>
 </tr>
 </table>
 
