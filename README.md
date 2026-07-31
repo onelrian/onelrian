@@ -12,16 +12,18 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+engineering+at+the+intersection+of+reliability+and+scale;Full-stack+observability+from+metrics+to+distributed+traces;Zero-trust+mesh+networking+across+bare-metal+and+cloud;GitOps-driven+infrastructure+that+operates+itself&center=true&width=860&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Platform+engineering+at+the+intersection+of+reliability+and+scale;Full-stack+observability+from+metrics+to+distributed+traces;Secure+networking+and+infrastructure+automation+by+default;Delivery+pipelines+that+ship+and+heal+themselves&center=true&width=860&size=20&duration=3500&pause=1000&color=58a6ff)](https://git.io/typing-svg)
 
 </div>
 
 ---
 
 <div align="center">
-Most of my work lives in private repositories: production systems, internal platforms, infrastructure built for real scale.<br>
-I architect and operate cloud-native platforms, automate everything that can be automated,<br>
-and treat observability and security as non-negotiable from the foundation up.
+<blockquote>
+<em>I design and operate cloud-native platforms end to end, from <strong>cluster provisioning</strong> through <strong>automated delivery</strong>, <strong>secure networking</strong>, and <strong>full-stack observability</strong>.</em><br><br>
+<em>Infrastructure is code, delivery is automated, and <strong>security posture is enforced from the foundation up</strong>, not bolted on after.</em><br><br>
+<em>Most of that work runs in production systems that stay private by nature; this profile reflects the same standards.</em>
+</blockquote>
 </div>
 
 ---
@@ -31,46 +33,66 @@ and treat observability and security as non-negotiable from the foundation up.
 <div align="center">
 
 ### Cloud & Infrastructure
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![OpenStack](https://img.shields.io/badge/OpenStack-ED1944?style=for-the-badge&logo=openstack&logoColor=white)
-![Proxmox](https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white)
-![Talos](https://img.shields.io/badge/Talos_Linux-326CE5?style=for-the-badge&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
-![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+<table>
+<tr>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/kubernetes.svg" alt="Kubernetes" title="Kubernetes"/><br><sub>Kubernetes</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/docker.svg" alt="Docker" title="Docker"/><br><sub>Docker</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/openstack.svg" alt="OpenStack" title="OpenStack"/><br><sub>OpenStack</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/proxmox-light.svg" alt="Proxmox" title="Proxmox"/><br><sub>Proxmox</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/talos.svg" alt="Talos Linux" title="Talos Linux"/><br><sub>Talos Linux</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/aws-light.svg" alt="AWS" title="Amazon Web Services"/><br><sub>AWS</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/google-cloud.svg" alt="Google Cloud" title="Google Cloud"/><br><sub>GCP</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/microsoft-azure.svg" alt="Microsoft Azure" title="Microsoft Azure"/><br><sub>Azure</sub></td>
+</tr>
+</table>
 
 ### Automation & GitOps
-![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white)
-![Ansible](https://img.shields.io/badge/Ansible-EE0000?style=for-the-badge&logo=ansible&logoColor=white)
-![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
-![ArgoCD](https://img.shields.io/badge/ArgoCD-EF7B4D?style=for-the-badge&logo=argo&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+<table>
+<tr>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/terraform.svg" alt="Terraform" title="Terraform"/><br><sub>Terraform</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/ansible-light.svg" alt="Ansible" title="Ansible"/><br><sub>Ansible</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/helm.svg" alt="Helm" title="Helm"/><br><sub>Helm</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/argo-cd.svg" alt="ArgoCD" title="Argo CD"/><br><sub>ArgoCD</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.simpleicons.org/githubactions/2088FF" alt="GitHub Actions" title="GitHub Actions"/><br><sub>GitHub Actions</sub></td>
+</tr>
+</table>
 
 ### Observability
-![Grafana](https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![Loki](https://img.shields.io/badge/Loki-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Tempo](https://img.shields.io/badge/Tempo-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Mimir](https://img.shields.io/badge/Mimir-F46800?style=for-the-badge&logo=grafana&logoColor=white)
-![Alertmanager](https://img.shields.io/badge/Alertmanager-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-![OpenTelemetry](https://img.shields.io/badge/OpenTelemetry-425CC7?style=for-the-badge&logo=opentelemetry&logoColor=white)
+<table>
+<tr>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grafana.svg" alt="Grafana" title="Grafana"/><br><sub>Grafana</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/prometheus.svg" alt="Prometheus" title="Prometheus"/><br><sub>Prometheus</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/loki.svg" alt="Loki" title="Loki"/><br><sub>Loki</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tempo.svg" alt="Tempo" title="Tempo"/><br><sub>Tempo</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/grafana.svg" alt="Mimir" title="Mimir (no dedicated icon upstream, Grafana Labs family)"/><br><sub>Mimir</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/alertmanager.svg" alt="Alertmanager" title="Alertmanager"/><br><sub>Alertmanager</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/selfhst/icons/svg/opentelemetry-light.svg" alt="OpenTelemetry" title="OpenTelemetry"/><br><sub>OpenTelemetry</sub></td>
+</tr>
+</table>
 
 ### Networking & Security
-![NetBird](https://img.shields.io/badge/NetBird-00B4FF?style=for-the-badge&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-242424?style=for-the-badge&logo=tailscale&logoColor=white)
-![WireGuard](https://img.shields.io/badge/WireGuard-88171A?style=for-the-badge&logo=wireguard&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![Keycloak](https://img.shields.io/badge/Keycloak-4D4D4D?style=for-the-badge&logo=keycloak&logoColor=white)
-![Wazuh](https://img.shields.io/badge/Wazuh-006DB7?style=for-the-badge&logoColor=white)
+<table>
+<tr>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/netbird.svg" alt="NetBird" title="NetBird"/><br><sub>NetBird</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tailscale-light.svg" alt="Tailscale" title="Tailscale"/><br><sub>Tailscale</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/wireguard.svg" alt="WireGuard" title="WireGuard"/><br><sub>WireGuard</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nginx.svg" alt="Nginx" title="Nginx"/><br><sub>Nginx</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/keycloak.svg" alt="Keycloak" title="Keycloak"/><br><sub>Keycloak</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/wazuh.svg" alt="Wazuh" title="Wazuh"/><br><sub>Wazuh</sub></td>
+</tr>
+</table>
 
 ### Development
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+<table>
+<tr>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/python.svg" alt="Python" title="Python"/><br><sub>Python</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/rust.svg" alt="Rust" title="Rust"/><br><sub>Rust</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/typescript.svg" alt="TypeScript" title="TypeScript"/><br><sub>TypeScript</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nextjs-light.svg" alt="Next.js" title="Next.js"/><br><sub>Next.js</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/postgresql.svg" alt="PostgreSQL" title="PostgreSQL"/><br><sub>PostgreSQL</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linux.svg" alt="Linux" title="Linux"/><br><sub>Linux</sub></td>
+</tr>
+</table>
 
 </div>
 
