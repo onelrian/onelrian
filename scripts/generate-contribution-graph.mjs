@@ -55,7 +55,7 @@ const left = 42;
 const top = 56;
 const width = left + 53 * (cell + gap) + 28;
 const height = 210;
-const colors = ["#21262d", "#1f6feb", "#2f81f7", "#56d364", "#7ee787"];
+const colors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"];
 const cells = [];
 
 weeks.forEach((days, weekIndex) => {
