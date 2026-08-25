@@ -26,8 +26,11 @@ jobs:
           PROFILE_USERNAME: onelrian
         run: node scripts/generate-contribution-graph.mjs
 
+      - name: Use local graph in README
+        run: perl -0pi -e 's#<img src="https://activity-graph-deploy\\.vercel\\.app/graph\\?[^\"]+" height="300" alt="Contribution Graph"/>#<img src="./assets/contribution-graph.svg" height="300" alt="Contribution Graph"/>#' README.md
+
       - name: Commit graph update
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: chore(profile): update contribution graph
-          file_pattern: assets/contribution-graph.svg
+          file_pattern: README.md assets/contribution-graph.svg
