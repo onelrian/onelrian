@@ -1,0 +1,38 @@
+name: Update Contribution Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches:
+      - main
+      - fix/profile-hourly-contribution-graph
+    paths:
+      - ".github/workflows/update-contribution-graph.yml"
+      - "scripts/generate-contribution-graph.mjs"
+      - "scripts/use-local-contribution-graph.mjs"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        env:
+          PROFILE_USERNAME: onelrian
+        run: node scripts/generate-contribution-graph.mjs
+
+      - name: Use local graph in README
+        run: node scripts/use-local-contribution-graph.mjs
+
+      - name: Commit graph update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: chore(profile): update contribution graph
+          file_pattern: README.md assets/contribution-graph.svg
