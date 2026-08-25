@@ -1,0 +1,33 @@
+name: Update Contribution Graph
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 * * * *"
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/update-contribution-graph.yml"
+      - "scripts/generate-contribution-graph.mjs"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        env:
+          PROFILE_USERNAME: onelrian
+        run: node scripts/generate-contribution-graph.mjs
+
+      - name: Commit graph update
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: chore(profile): update contribution graph
+          file_pattern: assets/contribution-graph.svg
