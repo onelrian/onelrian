@@ -110,7 +110,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=onelrian&radius=16&theme=github-compact&area=true&order=5&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" height="300" alt="Contribution Graph"/>
+  <img src="https://activity-graph-deploy.vercel.app/graph?username=onelrian&radius=16&theme=github-compact&area=true&order=5&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=c9d1d9" height="300" alt="Contribution Graph"/>
 </div>
 
 ---
