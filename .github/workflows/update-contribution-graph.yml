@@ -1,13 +1,12 @@
 name: Update Contribution Graph
 
-on:
+"on":
   workflow_dispatch:
   schedule:
     - cron: "17 * * * *"
   push:
     branches:
       - main
-      - fix/profile-hourly-contribution-graph
     paths:
       - ".github/workflows/update-contribution-graph.yml"
       - "scripts/generate-contribution-graph.mjs"
