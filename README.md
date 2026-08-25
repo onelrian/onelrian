@@ -110,7 +110,11 @@
 </div>
 
 <div align="center">
-  <img src="./assets/contribution-graph.svg" width="100%" alt="Contribution Graph"/>
+  <img src="./assets/contribution-line-chart.svg" width="100%" alt="Contribution Graph"/>
+</div>
+
+<div align="center">
+  <img src="./assets/contribution-grid.svg" width="100%" alt="Contribution Grid"/>
 </div>
 
 ---
