@@ -39,8 +39,8 @@
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/docker.svg" alt="Docker" title="Docker"/><br><sub>Docker</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/openstack.svg" alt="OpenStack" title="OpenStack"/><br><sub>OpenStack</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/proxmox-light.svg" alt="Proxmox" title="Proxmox"/><br><sub>Proxmox</sub></td>
-<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svh/talos.svg" alt="Talos Linux" title="Talos Linux"/><br><sub>Talos Linux</sub></td>
-<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/aws-light.svg" alt="AWS" title="AWS"/><br><sub>AWS</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/talos.svg" alt="Talos Linux" title="Talos Linux"/><br><sub>Talos Linux</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/aws-light.svg" alt="AWS" title="Amazon Web Services"/><br><sub>AWS</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/google-cloud.svg" alt="Google Cloud" title="Google Cloud"/><br><sub>GCP</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/microsoft-azure.svg" alt="Microsoft Azure" title="Microsoft Azure"/><br><sub>Azure</sub></td>
 </tr>
@@ -74,7 +74,7 @@
 <table>
 <tr>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/netbird.svg" alt="NetBird" title="NetBird"/><br><sub>NetBird</sub></td>
-<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svh/tailscale-light.svg" alt="Tailscale" title="Tailscale"/><br><sub>Tailscale</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/tailscale-light.svg" alt="Tailscale" title="Tailscale"/><br><sub>Tailscale</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/wireguard.svg" alt="WireGuard" title="WireGuard"/><br><sub>WireGuard</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nginx.svg" alt="Nginx" title="Nginx"/><br><sub>Nginx</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/keycloak.svg" alt="Keycloak" title="Keycloak"/><br><sub>Keycloak</sub></td>
@@ -87,7 +87,7 @@
 <tr>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/python.svg" alt="Python" title="Python"/><br><sub>Python</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/rust.svg" alt="Rust" title="Rust"/><br><sub>Rust</sub></td>
-<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svh/typescript.svg" alt="TypeScript" title="TypeScript"/><br><sub>TypeScript</sub></td>
+<td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/typescript.svg" alt="TypeScript" title="TypeScript"/><br><sub>TypeScript</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/nextjs-light.svg" alt="Next.js" title="Next.js"/><br><sub>Next.js</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/postgresql.svg" alt="PostgreSQL" title="PostgreSQL"/><br><sub>PostgreSQL</sub></td>
 <td align="center" width="80"><img width="40" height="40" src="https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/svg/linux.svg" alt="Linux" title="Linux"/><br><sub>Linux</sub></td>
