@@ -11,6 +11,7 @@ on:
     paths:
       - ".github/workflows/update-contribution-graph.yml"
       - "scripts/generate-contribution-graph.mjs"
+      - "scripts/use-local-contribution-graph.mjs"
 
 permissions:
   contents: write
@@ -28,7 +29,7 @@ jobs:
         run: node scripts/generate-contribution-graph.mjs
 
       - name: Use local graph in README
-        run: perl -0pi -e 's#<img src="https://activity-graph-deploy\\.vercel\\.app/graph\\?[^\"]+" height="300" alt="Contribution Graph"/>#<img src="./assets/contribution-graph.svg" height="300" alt="Contribution Graph"/>#' README.md
+        run: node scripts/use-local-contribution-graph.mjs
 
       - name: Commit graph update
         uses: stefanzweifel/git-auto-commit-action@v5
