@@ -115,6 +115,8 @@
 
 <div align="center">
   <img src="./assets/contribution-grid.svg" width="100%" alt="Contribution Grid"/>
+  <br/>
+  <sub><!-- year-tabs:start -->**2026** · [2025](./assets/contribution-grid-2025.svg) · [2024](./assets/contribution-grid-2024.svg)<!-- year-tabs:end --></sub>
 </div>
 
 ---

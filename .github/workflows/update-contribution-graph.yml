@@ -31,4 +31,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(profile): update contribution graphs"
-          file_pattern: assets/contribution-line-chart.svg assets/contribution-grid.svg
+          file_pattern: assets/contribution-line-chart.svg assets/contribution-grid*.svg README.md
