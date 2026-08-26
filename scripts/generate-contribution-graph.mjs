@@ -152,47 +152,34 @@ const lineSvg = `<svg width="${LW}" height="${LH}" viewBox="0 0 ${LW} ${LH}" fil
 </svg>
 `;
 
-// ── GRID: Last 30 days, modern GitHub dark mode ──────────────────────
-// Show as a compact grid: ~5 weeks x 7 days
-const gCell = 16;
-const gGap = 4;
-const gLeft = 40;
+// ── GRID: Full year, modern GitHub dark mode ──────────────────────────
+const gCell = 13;
+const gGap = 3;
+const gLeft = 44;
 const gTop = 56;
-// 30 days = ~5 weeks
-const numWeeks = Math.ceil(last30.length / 7);
-const gWidth = gLeft + numWeeks * (gCell + gGap) + 16;
+const gWidth = gLeft + 53 * (gCell + gGap) + 28;
 const gHeight = gTop + 7 * (gCell + gGap) + 28;
 
-// Modern GitHub dark mode greens — subtle, smooth transitions
 const gridColors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"];
 const gCells = [];
 
-// Rebuild week structure for last 30 days only
-const gByWeek = new Map();
-last30.forEach((d, i) => {
-  const wi = Math.floor(i / 7);
-  const di = i % 7;
-  if (!gByWeek.has(wi)) gByWeek.set(wi, []);
-  gByWeek.get(wi).push({ ...d, weekday: di });
-});
-
-gByWeek.forEach((weekDays, wi) => {
+// Use full year data from byWeek (already parsed above)
+byWeek.forEach((weekDays, wi) => {
   weekDays.forEach((d) => {
     const x = gLeft + wi * (gCell + gGap);
     const y = gTop + d.weekday * (gCell + gGap);
-    gCells.push(`<rect x="${x}" y="${y}" width="${gCell}" height="${gCell}" rx="4" fill="${gridColors[d.level]}" fill-opacity="${d.level === 0 ? 0.6 : 1}"><title>${escapeXml(d.date)}: level ${d.level}</title></rect>`);
+    gCells.push(`<rect x="${x}" y="${y}" width="${gCell}" height="${gCell}" rx="3" fill="${gridColors[d.level]}" fill-opacity="${d.level === 0 ? 0.6 : 1}"><title>${escapeXml(d.date)}: level ${d.level}</title></rect>`);
   });
 });
 
-// Month labels
 const gLabels = [];
 let pm2 = "";
-gByWeek.forEach((weekDays, wi) => {
+byWeek.forEach((weekDays, wi) => {
   const first = weekDays[0];
   if (!first) return;
   const m = new Date(`${first.date}T00:00:00Z`).toLocaleString("en", { month: "short", timeZone: "UTC" });
   if (m !== pm2) {
-    gLabels.push(`<text x="${gLeft + wi * (gCell + gGap)}" y="38" class="gl">${m}</text>`);
+    gLabels.push(`<text x="${gLeft + wi * (gCell + gGap)}" y="42" class="gl">${m}</text>`);
     pm2 = m;
   }
 });
