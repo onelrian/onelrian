@@ -6,7 +6,7 @@
   </style>
   <rect width="920" height="212" rx="10" fill="#0d1117"/>
   <text x="44" y="22" class="gt">Contributions</text>
-  <text x="44" y="38" class="gs">3,359 in the last year</text>
+  <text x="44" y="38" class="gs">3,381 in the last year</text>
   <text x="44" y="58" class="gl">Aug</text>
   <text x="76" y="58" class="gl">Sep</text>
   <text x="140" y="58" class="gl">Oct</text>
@@ -387,6 +387,6 @@
   <rect x="876" y="72" width="13" height="13" rx="3" fill="#0e4429" fill-opacity="1"><title>2026-08-23: level 1</title></rect>
   <rect x="876" y="88" width="13" height="13" rx="3" fill="#006d32" fill-opacity="1"><title>2026-08-24: level 2</title></rect>
   <rect x="876" y="104" width="13" height="13" rx="3" fill="#26a641" fill-opacity="1"><title>2026-08-25: level 3</title></rect>
-  <rect x="876" y="120" width="13" height="13" rx="3" fill="#0e4429" fill-opacity="1"><title>2026-08-26: level 1</title></rect>
+  <rect x="876" y="120" width="13" height="13" rx="3" fill="#006d32" fill-opacity="1"><title>2026-08-26: level 2</title></rect>
   <text x="44" y="206" class="gs">Less <tspan fill="#0e4429" font-size="14">■</tspan> <tspan fill="#006d32" font-size="14">■</tspan> <tspan fill="#26a641" font-size="14">■</tspan> <tspan fill="#39d353" font-size="14">■</tspan> More</text>
 </svg>
