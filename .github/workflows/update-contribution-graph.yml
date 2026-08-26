@@ -10,7 +10,6 @@ name: Update Contribution Graph
     paths:
       - ".github/workflows/update-contribution-graph.yml"
       - "scripts/generate-contribution-graph.mjs"
-      - "scripts/use-local-contribution-graph.mjs"
 
 permissions:
   contents: write
@@ -31,4 +30,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "chore(profile): update contribution graphs"
-          file_pattern: assets/contribution-line-chart.svg assets/contribution-grid*.svg README.md
+          file_pattern: assets/contribution-line-chart.svg README.md
