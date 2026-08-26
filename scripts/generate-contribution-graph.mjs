@@ -1,20 +1,10 @@
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 
 const username = process.env.PROFILE_USERNAME || "onelrian";
-// GitHub account created 2024-09-09; no contribution data exists before this year.
-const JOIN_YEAR = 2024;
 
 function attr(tag, name) {
   const match = tag.match(new RegExp(`${name}="([^"]*)"`));
   return match ? match[1] : "";
-}
-
-function escapeXml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;");
 }
 
 // ── Fetch + parse a contribution calendar ─────────────────────────────
@@ -53,14 +43,10 @@ async function fetchCalendar(toDate) {
   // sort explicitly rather than rely on document order.
   allDays.sort((a, b) => (a.date < b.date ? -1 : a.date > b.date ? 1 : 0));
 
-  return { total, byWeek, allDays };
+  return { total, allDays };
 }
 
 const current = await fetchCalendar();
-const currentYear = new Date().getUTCFullYear();
-const pastYears = [];
-for (let y = currentYear - 1; y >= JOIN_YEAR; y--) pastYears.push(y);
-const pastCalendars = await Promise.all(pastYears.map((y) => fetchCalendar(`${y}-12-31`)));
 
 const levelToCount = [0, 2, 5, 8, 12];
 
@@ -174,87 +160,12 @@ function buildLineSvg(allDays) {
 `;
 }
 
-// ── GRID: full year, modern GitHub dark mode ───────────────────────────
-function buildGridSvg(byWeek, subtitle) {
-  const gCell = 13, gGap = 3, gLeft = 44;
-  // Title (y=22) and subtitle (y=38) each get a full line box before the
-  // month-label row starts, so a long subtitle ("3,359 in the last year")
-  // can never collide with the month labels regardless of digit count.
-  const gTop = 72;
-  const monthLabelY = 58;
-  const gWidth = gLeft + 53 * (gCell + gGap) + 28;
-  const gHeight = gTop + 7 * (gCell + gGap) + 28;
-
-  const gridColors = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353"];
-  const gCells = [];
-
-  byWeek.forEach((weekDays, wi) => {
-    weekDays.forEach((d) => {
-      const x = gLeft + wi * (gCell + gGap);
-      const y = gTop + d.weekday * (gCell + gGap);
-      gCells.push(`<rect x="${x}" y="${y}" width="${gCell}" height="${gCell}" rx="3" fill="${gridColors[d.level]}" fill-opacity="${d.level === 0 ? 0.6 : 1}"><title>${escapeXml(d.date)}: level ${d.level}</title></rect>`);
-    });
-  });
-
-  const gLabels = [];
-  let pm2 = "";
-  byWeek.forEach((weekDays, wi) => {
-    const first = weekDays[0];
-    if (!first) return;
-    const m = new Date(`${first.date}T00:00:00Z`).toLocaleString("en", { month: "short", timeZone: "UTC" });
-    if (m !== pm2) {
-      gLabels.push(`<text x="${gLeft + wi * (gCell + gGap)}" y="${monthLabelY}" class="gl">${m}</text>`);
-      pm2 = m;
-    }
-  });
-
-  return `<svg width="${gWidth}" height="${gHeight}" viewBox="0 0 ${gWidth} ${gHeight}" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Contribution grid">
-  <style>
-    .gt { font: 600 14px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #e6edf3; }
-    .gs { font: 400 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; fill: #7d8590; }
-    .gl { fill: #7d8590; font: 500 10px -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; }
-  </style>
-  <rect width="${gWidth}" height="${gHeight}" rx="10" fill="#0d1117"/>
-  <text x="${gLeft}" y="22" class="gt">Contributions</text>
-  <text x="${gLeft}" y="38" class="gs">${subtitle}</text>
-  ${gLabels.join("\n  ")}
-  ${gCells.join("\n  ")}
-  <text x="${gLeft}" y="${gHeight - 6}" class="gs">Less ${gridColors.slice(1).map((c) => `<tspan fill="${c}" font-size="14">■</tspan>`).join(" ")} More</text>
-</svg>
-`;
-}
-
-// ── Write SVGs: current rolling year + one grid per past calendar year ─
+// ── Write SVG ─────────────────────────────────────────────────────────
 await mkdir("assets", { recursive: true });
+await writeFile("assets/contribution-line-chart.svg", buildLineSvg(current.allDays), "utf8");
 
-const writes = [
-  writeFile("assets/contribution-line-chart.svg", buildLineSvg(current.allDays), "utf8"),
-  writeFile("assets/contribution-grid.svg", buildGridSvg(current.byWeek, `${current.total.toLocaleString("en-US")} in the last year`), "utf8"),
-];
-pastYears.forEach((y, i) => {
-  const cal = pastCalendars[i];
-  writes.push(writeFile(`assets/contribution-grid-${y}.svg`, buildGridSvg(cal.byWeek, `${cal.total.toLocaleString("en-US")} in ${y}`), "utf8"));
-});
-await Promise.all(writes);
-
-// ── Refresh README.md between marker comments ──────────────────────────
-// GitHub does not parse markdown emphasis/links inside content nested in an
-// already-open HTML block (the surrounding <div align="center">), so these
-// markers are replaced with real HTML tags, not markdown syntax.
+// ── Refresh README.md line-link marker ────────────────────────────────
 let readme = await readFile("README.md", "utf8");
-
-const tabs = [
-  `<strong>${currentYear}</strong>`,
-  ...pastYears.map((y) => `<a href="./assets/contribution-grid-${y}.svg">${y}</a>`),
-].join(" · ");
-readme = readme.replace(
-  /<!-- year-tabs:start -->[\s\S]*?<!-- year-tabs:end -->/,
-  `<!-- year-tabs:start -->${tabs}<!-- year-tabs:end -->`,
-);
-
-// Points the line chart at GitHub's own activity-overview filter for the
-// exact 30-day window it plots, so the "image" is a real link like the
-// live contribution graph, not a static picture.
 const last30 = current.allDays.slice(-30);
 const lineFrom = last30[0].date;
 const lineTo = last30[last30.length - 1].date;
@@ -262,7 +173,6 @@ readme = readme.replace(
   /<!-- line-link:start -->[\s\S]*?<!-- line-link:end -->/,
   `<!-- line-link:start --><a href="https://github.com/${username}?tab=overview&from=${lineFrom}&to=${lineTo}"><!-- line-link:end -->`,
 );
-
 await writeFile("README.md", readme, "utf8");
 
-console.log(`Wrote contribution-line-chart.svg, contribution-grid.svg, and ${pastYears.length} past-year grid(s) for ${username}`);
+console.log(`Wrote contribution-line-chart.svg for ${username}`);
