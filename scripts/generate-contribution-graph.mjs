@@ -237,13 +237,32 @@ pastYears.forEach((y, i) => {
 });
 await Promise.all(writes);
 
-// ── Refresh the year-tab links in README.md between marker comments ───
-const readme = await readFile("README.md", "utf8");
-const tabs = [`**${currentYear}**`, ...pastYears.map((y) => `[${y}](./assets/contribution-grid-${y}.svg)`)].join(" · ");
-const updatedReadme = readme.replace(
+// ── Refresh README.md between marker comments ──────────────────────────
+// GitHub does not parse markdown emphasis/links inside content nested in an
+// already-open HTML block (the surrounding <div align="center">), so these
+// markers are replaced with real HTML tags, not markdown syntax.
+let readme = await readFile("README.md", "utf8");
+
+const tabs = [
+  `<strong>${currentYear}</strong>`,
+  ...pastYears.map((y) => `<a href="./assets/contribution-grid-${y}.svg">${y}</a>`),
+].join(" · ");
+readme = readme.replace(
   /<!-- year-tabs:start -->[\s\S]*?<!-- year-tabs:end -->/,
   `<!-- year-tabs:start -->${tabs}<!-- year-tabs:end -->`,
 );
-if (updatedReadme !== readme) await writeFile("README.md", updatedReadme, "utf8");
+
+// Points the line chart at GitHub's own activity-overview filter for the
+// exact 30-day window it plots, so the "image" is a real link like the
+// live contribution graph, not a static picture.
+const last30 = current.allDays.slice(-30);
+const lineFrom = last30[0].date;
+const lineTo = last30[last30.length - 1].date;
+readme = readme.replace(
+  /<!-- line-link:start -->[\s\S]*?<!-- line-link:end -->/,
+  `<!-- line-link:start --><a href="https://github.com/${username}?tab=overview&from=${lineFrom}&to=${lineTo}"><!-- line-link:end -->`,
+);
+
+await writeFile("README.md", readme, "utf8");
 
 console.log(`Wrote contribution-line-chart.svg, contribution-grid.svg, and ${pastYears.length} past-year grid(s) for ${username}`);

@@ -110,13 +110,17 @@
 </div>
 
 <div align="center">
-  <img src="./assets/contribution-line-chart.svg" width="100%" alt="Contribution Graph"/>
+  <!-- line-link:start --><a href="https://github.com/onelrian?tab=overview&from=2026-07-28&to=2026-08-26"><!-- line-link:end -->
+    <img src="./assets/contribution-line-chart.svg" width="100%" alt="Contribution Graph"/>
+  </a>
 </div>
 
 <div align="center">
-  <img src="./assets/contribution-grid.svg" width="100%" alt="Contribution Grid"/>
+  <a href="https://github.com/onelrian?tab=overview">
+    <img src="./assets/contribution-grid.svg" width="100%" alt="Contribution Grid"/>
+  </a>
   <br/>
-  <sub><!-- year-tabs:start -->**2026** · [2025](./assets/contribution-grid-2025.svg) · [2024](./assets/contribution-grid-2024.svg)<!-- year-tabs:end --></sub>
+  <sub><!-- year-tabs:start --><strong>2026</strong> · <a href="./assets/contribution-grid-2025.svg">2025</a> · <a href="./assets/contribution-grid-2024.svg">2024</a><!-- year-tabs:end --></sub>
 </div>
 
 ---
