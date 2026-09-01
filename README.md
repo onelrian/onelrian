@@ -110,7 +110,7 @@
 </div>
 
 <div align="center">
-  <!-- line-link:start --><a href="https://github.com/onelrian?tab=overview&from=2026-08-02&to=2026-08-31"><!-- line-link:end -->
+  <!-- line-link:start --><a href="https://github.com/onelrian?tab=overview&from=2026-08-03&to=2026-09-01"><!-- line-link:end -->
     <img src="./assets/contribution-line-chart.svg" width="100%" alt="Contribution Graph"/>
   </a>
 </div>
